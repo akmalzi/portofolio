@@ -110,18 +110,18 @@ export const projects = [
     image: "/project/paguyubanumkm.png",
     gradient: "from-emerald-100 to-teal-200",
   },
-  {
-    title: "Nusa Travel Journal",
-    category: "Frontend",
-    description:
-      "Editorial travel journal with destination stories, saved itineraries, and fast image delivery for strong Core Web Vitals.",
-    role: "Built the responsive frontend, content templates, image optimization, and performance budget.",
-    tags: ["Next.js", "CSS", "Vercel", "Figma"],
-    github: "",
-    demo: "",
-    image: "",
-    gradient: "from-lime-100 to-green-300",
-  },
+  // {
+  //   title: "Nusa Travel Journal",
+  //   category: "Frontend",
+  //   description:
+  //     "Editorial travel journal with destination stories, saved itineraries, and fast image delivery for strong Core Web Vitals.",
+  //   role: "Built the responsive frontend, content templates, image optimization, and performance budget.",
+  //   tags: ["Next.js", "CSS", "Vercel", "Figma"],
+  //   github: "",
+  //   demo: "",
+  //   image: "",
+  //   gradient: "from-lime-100 to-green-300",
+  // },
 ];
 
 export const experience = [
