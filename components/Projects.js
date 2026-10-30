@@ -5,7 +5,7 @@ import Icon from "./Icons";
 import SectionLabel from "./SectionLabel";
 import { projects } from "@/data/portfolio";
 
-const filters = ["All", "Frontend", "Full Stack", "UI"];
+const filters = ["All", "Frontend", "Full Stack", "Backend"];
 
 export default function Projects() {
   // filter yang sedang dipilih

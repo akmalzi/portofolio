@@ -110,18 +110,18 @@ export const projects = [
     image: "/project/paguyubanumkm.png",
     gradient: "from-emerald-100 to-teal-200",
   },
-  // {
-  //   title: "Nusa Travel Journal",
-  //   category: "Frontend",
-  //   description:
-  //     "Editorial travel journal with destination stories, saved itineraries, and fast image delivery for strong Core Web Vitals.",
-  //   role: "Built the responsive frontend, content templates, image optimization, and performance budget.",
-  //   tags: ["Next.js", "CSS", "Vercel", "Figma"],
-  //   github: "",
-  //   demo: "",
-  //   image: "",
-  //   gradient: "from-lime-100 to-green-300",
-  // },
+  {
+    title: "Apotek with Marketplace Feature (under development)",
+    category: "Full Stack",
+    description:
+      "Full-stack pharmacy marketplace application with features for product management, user authentication, and a shopping cart",
+    role: "Built the responsive frontend, content templates, image optimization, and performance budget.",
+    tags: ["Next.js", "Tailwind CSS", "Vercel", "Prisma ORM", "SQLite"],
+    github: "https://github.com/akmalzi/apotek-market",
+    demo: "",
+    image: "",
+    gradient: "from-lime-100 to-green-300",
+  },
 ];
 
 export const experience = [
@@ -152,8 +152,20 @@ export const education = {
 };
 
 export const certificates = [
-  { title: "Junior Web Programmer", issuer: "BNSP · 2025" },
-  { title: "React Basic Certificate", issuer: "Hackerank · 2026" },
-  { title: "Responsive Web Design", issuer: "freeCodeCamp · 2025" },
-  { title: "Git & GitHub Fundamentals", issuer: "Coursera · 2024" },
+  {
+    title: "Junior Web Programmer",
+    issuer: "BNSP · 2025",
+    link: "https://drive.google.com/file/d/1kQpKKtP87UzYwxJQMcbrZYOf4qwQEgb8/view?usp=drive_link",
+  },
+  {
+    title: "React Basic Certificate",
+    issuer: "HackerRank · 2026",
+    link: "https://drive.google.com/file/d/1rQzrvxYuW7l6IFDb_VeHwlwiYFMZ_h6s/view?usp=sharing",
+  },
+  {
+    title: "Frontend Developer (React)",
+    issuer: "HackerRank - 2026",
+    link: "https://drive.google.com/file/d/1fpZRBhrRPp0Oor8ZWL9-OjitDWTFrbaS/view?usp=drive_link",
+  },
+  // { title: "Git & GitHub Fundamentals", issuer: "Coursera · 2024", link: "" },
 ];

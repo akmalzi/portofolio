@@ -74,11 +74,13 @@ export default function Experience() {
                 key={c.title}
                 className="flex items-center justify-between py-4"
               >
-                <div>
+                <div className="">
                   <p className="text-sm font-medium">{c.title}</p>
                   <p className="text-[11px] text-muted">{c.issuer}</p>
                 </div>
-                <Icon name="check" className="h-4 w-4 text-brand" />
+                <Link href={c.link}>
+                  <Icon name="arrowRight" className="h-4 w-10 text-brand" />
+                </Link>
               </li>
             ))}
           </ul>
