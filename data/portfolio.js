@@ -6,7 +6,8 @@ export const profile = {
   email: "akmalzidanfah@gmail.com",
   github: "github.com/akmalzi",
   linkedin: "linkedin.com/in/name",
-  cvLink: "#",
+  cvLink:
+    "https://drive.google.com/file/d/1scixbKojHCzQYWi5OEwZGa6e68_R_CVF/view?usp=sharing",
   photo: "/profile.jpg",
 };
 
